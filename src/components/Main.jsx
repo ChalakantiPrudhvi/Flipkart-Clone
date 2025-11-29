@@ -33,9 +33,11 @@ function Main() {
             <h5>Fashion</h5>
           </div>
           <div className="opt3">
+            <button>
             <Link to="/Mobile">
               <img src={img2} alt="mobiles" />
             </Link>
+            </button>
             <h5>Mobiles&Tablets</h5>
           </div>
           <div className="opt4">

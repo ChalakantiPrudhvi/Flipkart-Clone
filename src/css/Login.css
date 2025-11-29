@@ -1,103 +1,162 @@
-.login-page {
-  height: 580px;
-  display: flex;
 
-  justify-content: center;
-
-  align-items: center;
-  margin-top: 5px;
-}
-.partA {
-  height: 528px;
-  width: 345px;
-  border: 2px solid blue;
-  background-color: #2874f0;
-}
-.partB {
-  height: 528px;
-  width: 530px;
-  box-shadow: 0 0 5px rgba(128, 128, 128, 0.651);
-  background-color: white;
-}
-.partA h2 {
-  color: white;
-  text-align: left;
-  margin: 40px 0 0 30px;
-}
-.partA h5 {
-  color: #f1f3f6;
-  text-align: left;
-  line-height: 1.2;
-  margin: 20px 0 0 30px;
-  font-size: 18px;
-}
-.partA img {
-  height: 180px;
-  width: 250px;
-  margin-top: 120px;
-
-  margin-left: 50px;
-}
 .list {
-  height: 40px;
-  background-color: white;
-  box-shadow: 0 0 6px grey;
+  background: #fff;
+  padding: 12px 40px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
+
 .list ul {
   display: flex;
+  gap: 25px;
   justify-content: space-evenly;
-  align-items: center;
-  gap: 40px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.list ul li a {
+
+.list li a {
   text-decoration: none;
-  color: black;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
 }
-.list ul li a:hover {
+
+.list li a:hover {
   color: #2874f0;
 }
-.Nav-link {
-  color: black;
-  text-decoration: none;
+
+
+.login-page {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-.partB p {
-  font-size: 13.5px;
-  color: grey;
-  margin-bottom: 0;
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 40px;
-}
-.email {
-  border: none;
-  border-bottom: 1px solid #2874f0;
-  outline: none;
-  width: 450px;
-  margin-top: 0;
-  margin-left: 40px;
-}
-.help p a {
-  text-decoration: none;
-}
-.help button {
-  width: 450px;
-  margin-left: 40px;
-  height: 50px;
-  margin-top: 20px;
-  background-color: #fb641b;
-  color: whitesmoke;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-}
-.foot {
+
+
+.partA {
+  width: 40%;
+  background: #2874f0;
+  padding: 40px 30px;
+  color: white;
   position: relative;
-  top: 230px;
-  text-align: center;
+}
+
+.partA h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.partA h5 {
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.partA img {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+
+.partB {
+  width: 60%;
+  padding: 40px 30px;
+}
+
+.partB p {
+  font-size: 14px;
   font-weight: 500;
+  color: #333;
+}
+
+.email {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #adb5bd;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.email:focus {
+  border-bottom: 2px solid #2874f0;
+}
+
+
+.help p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.help a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.help a:hover {
+  text-decoration: underline;
+}
+
+.help button {
+  width: 100%;
+  margin-top: 20px;
+  background: #fb641b;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  font-size: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.help button:hover {
+  background: #d75412;
+}
+
+
+ .foot {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.foot a {
+  color: #2874f0;
+  font-weight: 500;
+  text-decoration: none;
   font-size: 14px;
 }
-.foot a {
-  text-decoration: none;
+
+.foot a:hover {
+  text-decoration: underline;
+} 
+
+
+@media (max-width: 900px) {
+  .login-page {
+    flex-direction: column;
+    width: 90%;
+  }
+  .partA,
+  .partB {
+    width: 100%;
+  }
+  .partA img {
+    width: 60%;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .list ul {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 }

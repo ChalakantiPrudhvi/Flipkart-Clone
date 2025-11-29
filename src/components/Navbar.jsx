@@ -21,26 +21,26 @@ function Navbar() {
           </form>
         </div>
         <div className="login">
-          <i class="fa-solid fa-user"></i>
           <button>
             <Link to="/login" className="Nav-link">
-              Login
+         <span> <i className="fa-solid fa-user"></i> </span>
+                Login
             </Link>
           </button>
         </div>
-        <div className="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-
+           <div className="login">
           <button>
             <Link to="/Cart" className="Nav-link">
-              Cart
+          <span><i className="fa-solid fa-cart-shopping"></i> </span>
+                Cart
             </Link>
           </button>
         </div>
         <div className="seller">
-          <i class="fa-solid fa-store"></i>
 
-          <button>Become a seller</button>
+          <button style={{fontSize:"18px",fontWeight:"600"}}>
+         <span><i class="fa-solid fa-store"></i> </span>
+            Become a seller</button>
         </div>
         <div className="navigation">
           <button>
