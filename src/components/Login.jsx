@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Login.css";
 import Footer from "./Footer";
-import img from "../images/loginimg.jpg";
+import imge from "../images/loginimg.jpg";
 function Login() {
   return (
     <div>
@@ -40,7 +40,7 @@ function Login() {
         <div className="partA">
           <h2>Login</h2>
           <h5>Get access to your Orders,wishlists and Recomandation</h5>
-          <img src={img} alt="image" />
+          <img src={imge} alt="pic" />
         </div>
         <div className="partB">
           <p>Enter Email/Mobile number</p>

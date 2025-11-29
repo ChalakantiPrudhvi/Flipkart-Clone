@@ -35,7 +35,7 @@ const ProductPage = () => {
       <div className="cart">
         {products.map((item) => (
           <div key={item.id} className="card">
-            <img src={item.image} />
+            <img src={item.image} alt="pic"/>
             <h4>{item.title}</h4>
             <p>{item.details}</p>
             <h5 style={{ color: "darkgreen", textAlign: "center" }}>

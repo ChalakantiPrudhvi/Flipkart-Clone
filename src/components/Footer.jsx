@@ -14,22 +14,22 @@ const Footer = () => {
           <br />
           <ul>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="/">Contact Us</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="/">About Us</a>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <a href="/">Careers</a>
             </li>
             <li>
-              <a href="#">Flipkart Stories</a>
+              <a href="/">Flipkart Stories</a>
             </li>
             <li>
-              <a href="#">Press</a>
+              <a href="/">Press</a>
             </li>
             <li>
-              <a href="#">Corporate Information</a>
+              <a href="/">Corporate Information</a>
             </li>
           </ul>
         </div>
@@ -39,13 +39,13 @@ const Footer = () => {
           <br />
           <ul>
             <li>
-              <a href="#">Myntra</a>
+              <a href="/">Myntra</a>
             </li>
             <li>
-              <a href="#">Cleartrip</a>
+              <a href="/">Cleartrip</a>
             </li>
             <li>
-              <a href="#">Shopsy</a>
+              <a href="/">Shopsy</a>
             </li>
           </ul>
         </div>
@@ -55,16 +55,16 @@ const Footer = () => {
           <br />
           <ul>
             <li>
-              <a href="#">Payments</a>
+              <a href="/">Payments</a>
             </li>
             <li>
-              <a href="#">Shipping</a>
+              <a href="/">Shipping</a>
             </li>
             <li>
-              <a href="#">Cancellation & Returns</a>
+              <a href="/">Cancellation & Returns</a>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <a href="/">FAQ</a>
             </li>
           </ul>
         </div>
@@ -74,22 +74,22 @@ const Footer = () => {
           <br />
           <ul>
             <li>
-              <a href="#">Cancellation & Returns</a>
+              <a href="/">Cancellation & Returns</a>
             </li>
             <li>
-              <a href="#">Terms of Use</a>
+              <a href="/">Terms of Use</a>
             </li>
             <li>
-              <a href="#">Security</a>
+              <a href="/">Security</a>
             </li>
             <li>
-              <a href="#">Privacy</a>
+              <a href="/">Privacy</a>
             </li>
             <li>
-              <a href="#">Grievance Redressal</a>
+              <a href="/">Grievance Redressal</a>
             </li>
             <li>
-              <a href="#">EPR Compliance</a>
+              <a href="/">EPR Compliance</a>
             </li>
           </ul>
         </div>
@@ -133,28 +133,28 @@ const Footer = () => {
       <div className="last">
         <div className="s11">
           <img src={log1} alt="seller" />
-          <a href="#" style={{ marginLeft: "9px" }}>
+          <a href="/" style={{ marginLeft: "9px" }}>
             Become a Seller
           </a>
         </div>
 
         <div className="s11">
           <img src={log2} alt="advertise" />
-          <a href="#" style={{ marginLeft: "9px" }}>
+          <a href="/" style={{ marginLeft: "9px" }}>
             Advertise
           </a>
         </div>
 
         <div className="s11">
           <img src={log3} alt="gift-cards" />
-          <a href="#" style={{ marginLeft: "9px" }}>
+          <a href="/" style={{ marginLeft: "9px" }}>
             Gift Cards
           </a>
         </div>
 
         <div className="s11">
           <img src={log4} alt="help-center" />
-          <a href="#" style={{ marginLeft: "9px" }}>
+          <a href="/" style={{ marginLeft: "9px" }}>
             Help Center
           </a>
         </div>

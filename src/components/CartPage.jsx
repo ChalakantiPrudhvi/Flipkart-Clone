@@ -24,7 +24,7 @@ const CartPage = () => {
 
         {cart.map((item) => (
           <div key={item.id} className="added-item">
-            <img src={item.image} width="150" />
+            <img src={item.image} width="150" alt="pic"/>
 
             <div style={{ marginLeft: "20px", flexGrow: 1 }}>
               <h3>{item.title}</h3>
