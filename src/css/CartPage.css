@@ -1,0 +1,86 @@
+.Addcart {
+  padding: 20px;
+  width: 900px;
+  position: relative;
+  left: 20%;
+  background-color: #fff;
+}
+.address {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 8px grey;
+}
+.address p {
+  text-align: left;
+  flex: 5;
+  padding-top: 10px;
+}
+.address button {
+  -ms-flex-align: end;
+  color: #2874f0;
+  border: 0.5px solid rgba(128, 128, 128, 0.516);
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.added-item {
+  display: flex;
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 0;
+  box-shadow: 0 0 8px grey;
+  align-items: center;
+
+  margin-top: 10px;
+}
+.added-item h3 {
+  font-size: 20px;
+}
+.added-item p {
+  font-weight: bold;
+}
+.order {
+  display: flex;
+  align-items: center;
+
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 0;
+  box-shadow: 0 0 8px grey;
+}
+.order h3 {
+  flex-grow: 5;
+  font-size: 20px;
+}
+.order button {
+  flex: end;
+  color: white;
+  font-size: 18px;
+  background-color: #fb641b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.cart-end {
+  height: 300px;
+  width: 100%;
+  border-top: 1px solid grey;
+  margin-top: 40px;
+}
+.cart-end ul {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  list-style: none;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 16px;
+}
+.cart-end ul li a {
+  text-decoration: none;
+}

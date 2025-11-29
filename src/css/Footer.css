@@ -1,0 +1,76 @@
+.end {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.904);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 0;
+}
+
+.end div {
+  margin-top: 30px;
+  font-size: 0.75rem;
+}
+
+.end div p {
+  color: white;
+}
+
+.end ul {
+  list-style: none;
+  padding: 0;
+}
+
+.end ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.end ul li a:hover {
+  text-decoration: underline;
+}
+
+.end .mail .social i {
+  color: white;
+  font-size: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.end .mail .social i:hover {
+  color: #00aaff;
+}
+
+.last {
+  height: 68px;
+  width: 100%;
+  background-color: black;
+  border-top: 2px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
+.last div {
+  padding: 10px;
+}
+
+.last div img {
+  background-color: transparent;
+}
+
+.last div p,
+.last div a {
+  color: white;
+  text-decoration: none;
+}
+
+.last div a:hover {
+  text-decoration: underline;
+}
+.end,
+.last {
+  margin: 0;
+}

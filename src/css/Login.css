@@ -1,0 +1,103 @@
+.login-page {
+  height: 580px;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 5px;
+}
+.partA {
+  height: 528px;
+  width: 345px;
+  border: 2px solid blue;
+  background-color: #2874f0;
+}
+.partB {
+  height: 528px;
+  width: 530px;
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.651);
+  background-color: white;
+}
+.partA h2 {
+  color: white;
+  text-align: left;
+  margin: 40px 0 0 30px;
+}
+.partA h5 {
+  color: #f1f3f6;
+  text-align: left;
+  line-height: 1.2;
+  margin: 20px 0 0 30px;
+  font-size: 18px;
+}
+.partA img {
+  height: 180px;
+  width: 250px;
+  margin-top: 120px;
+
+  margin-left: 50px;
+}
+.list {
+  height: 40px;
+  background-color: white;
+  box-shadow: 0 0 6px grey;
+}
+.list ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.list ul li a {
+  text-decoration: none;
+  color: black;
+}
+.list ul li a:hover {
+  color: #2874f0;
+}
+.Nav-link {
+  color: black;
+  text-decoration: none;
+}
+.partB p {
+  font-size: 13.5px;
+  color: grey;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.email {
+  border: none;
+  border-bottom: 1px solid #2874f0;
+  outline: none;
+  width: 450px;
+  margin-top: 0;
+  margin-left: 40px;
+}
+.help p a {
+  text-decoration: none;
+}
+.help button {
+  width: 450px;
+  margin-left: 40px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #fb641b;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+.foot {
+  position: relative;
+  top: 230px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.foot a {
+  text-decoration: none;
+}
