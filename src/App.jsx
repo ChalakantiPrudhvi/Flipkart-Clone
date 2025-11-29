@@ -12,7 +12,7 @@ import CartPage from "./components/CartPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Flipkart-Clone">
         <Navbar />
         <Routes>
           <Route
